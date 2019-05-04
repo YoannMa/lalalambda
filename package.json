@@ -8,7 +8,7 @@
   },
   "scripts": {
     "test": "lab -a @hapi/code -t 100 -L test/index.js",
-    "coveralls": "lab -r lcov test/index.js | coveralls"
+    "coveralls": "lab -r lcov test/index.js | coveralls -v"
   },
   "repository": {
     "type": "git",
